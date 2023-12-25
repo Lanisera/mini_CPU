@@ -170,10 +170,10 @@ end TCL_Generic;
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
   </toolbar>
   <circuit name="csr">
@@ -237,7 +237,10 @@ end TCL_Generic;
       <a name="facing" val="north"/>
       <a name="label" val="WE"/>
     </comp>
-    <comp lib="0" loc="(750,460)" name="Pin"/>
+    <comp lib="0" loc="(750,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
     <comp lib="0" loc="(900,390)" name="Tunnel">
       <a name="label" val="tohost"/>
       <a name="width" val="32"/>
